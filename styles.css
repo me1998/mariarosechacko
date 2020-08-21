@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    background:url("fin.jpg");
+    background-size: cover;
+    height: 100vh;
+   
+}
+.wrapper{
+    height: 75vh;
+    
+    position: relative;
+    top: 8%;
+    margin-left:5%;
+    margin-right: 5%;
+    
+    width: auto;
+    border-style: solid;
+    
+    border-color: BLACK;
+    border-width: .005px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.dp{
+    margin-top: 50px;
+    margin-left: 20%;
+    
+}
+.dp img{
+    
+    height: 60vh;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 24px 32px 0;
+    animation: text 5s 1;
+}
+.text{
+
+    text-align: center;   
+    margin-right: 25%;
+    margin-top: 25vh;
+    align-items: center;
+    justify-content: center;
+    }
+.text img{
+    
+    height: auto;
+    width: 80%;
+    border-radius: 15px;        
+}
+.text h3{
+    color: BLACK;
+    
+    font-size: 1.3vw;
+   
+    font-family: 'Raleway', sans-serif;
+
+    animation: text 5s 1;
+}
+i{
+    margin:10px;
+}
+a{
+    text-decoration: none;
+}
+i{
+     color: BLACK;
+     font-size: 3vw;
+}
+
+
+@media screen and (max-width: 800px){
+    .wrapper{
+        grid-template-columns: none;
+        display: block;
+        top: 5%;
+        bottom: 5%;
+        height: 90vh;
+
+    }
+    .dp{
+        margin: 0;
+        margin-top: 50px;
+        text-align: center;
+    }  
+    .dp img{
+        text-align: center;
+        height: auto;
+        width:25%;
+        margin: 0;
+    }
+    .text{
+        margin:0;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .text h3{
+        font-size: 2.5vw;
+        margin: 0;
+    }
+    .text img{
+        width: 60%;
+    }
+    i{
+        font-size: 5vw;
+    }
+}
+@media screen and (max-width: 600px){
+      
+   
+    
+    .dp img{
+      
+        width:   30%;
+        
+    }
+    
+    
+   
+}
+@media screen and (max-width: 400px){
+      
+   
+    
+    .dp img{
+      
+        width: 40%;
+        
+    }
+}
+
+@keyframes text{
+    0%{
+        color: grey;
+       margin-bottom: 85px;
+       
+    }
+
+}
